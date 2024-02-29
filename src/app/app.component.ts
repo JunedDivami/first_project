@@ -97,4 +97,8 @@ export class AppComponent {
     this.empo = this.employees.map(e => (e)).filter(f => (f.city == val))
     this.flag = false
   }
+
+  someFun(){
+    console.log("hello")
+  }
 }
