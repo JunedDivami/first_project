@@ -1,0 +1,27 @@
+.empMain {
+    padding: 5% 10% 0% 30%;
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 10%;
+
+    &__sub {
+        background-color: rgb(157, 232, 178);
+        min-width: 40%;
+        padding: 5%;
+        color: rgb(18, 53, 28);
+
+        &__select {
+            padding: 1%;
+            margin-right: 5%;
+        }
+
+        &__tableDiv {
+            padding: 10%;
+            box-shadow: 10px 10px 10px rgb(91, 177, 91);
+            border-collapse: collapse;
+            border-color: green;
+            width: 100%;
+        }
+    }
+
+}
